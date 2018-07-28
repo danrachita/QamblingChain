@@ -83,7 +83,7 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 clear
 
 # Set these to change the version of qamblingchain to install
-TARBALLURL="https://github.com/zabtc/QamblingChain/releases/download/1.0.0/qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz"
+TARBALLURL="https://github.com/QamblingChain/QamblingChain/releases/download/1.0.0/qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz"
 TARBALLNAME="qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz"
 BOOTSTRAPURL=""
 BOOTSTRAPARCHIVE=""
@@ -266,18 +266,8 @@ bind=${IP}:8152
 masternodeaddr=${IP}
 masternodeprivkey=${KEY}
 masternode=1
-addnode=207.246.69.246
-addnode=209.250.233.104
-addnode=45.77.82.101
-addnode=138.68.167.127
-addnode=45.77.218.53
-addnode=207.246.86.118
-addnode=128.199.44.28
-addnode=139.59.164.167
-addnode=139.59.177.56
-addnode=206.189.58.89
-addnode=207.154.202.113
-addnode=140.82.54.227
+addnode=144.202.46.250
+addnode=45.32.196.227
 EOL
 chmod 0600 $USERHOME/.qamblingchain/qamblingchain.conf
 chown -R $USER:$USER $USERHOME/.qamblingchain

@@ -28,7 +28,7 @@ sudo free
 sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
 cd
 
-wget https://github.com/zabtc/QamblingChain/releases/download/1.0.0/qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz
+wget https://github.com/QamblingChain/QamblingChain/releases/download/1.0.0/qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz
 tar -xzf qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz
 
 sudo apt-get install -y ufw
@@ -50,17 +50,8 @@ echo "server=1" >> qamblingchain.conf
 echo "daemon=1" >> qamblingchain.conf
 echo "logtimestamps=1" >> qamblingchain.conf
 echo "maxconnections=256" >> qamblingchain.conf
-echo "addnode=209.250.233.104" >> qamblingchain.conf
-echo "addnode=45.77.82.101" >> qamblingchain.conf
-echo "addnode=138.68.167.127" >> qamblingchain.conf
-echo "addnode=207.246.86.118" >> qamblingchain.conf
-echo "addnode=149.56.4.247" >> qamblingchain.conf
-echo "addnode=149.56.4.246" >> qamblingchain.conf
-echo "addnode=149.56.4.245" >> qamblingchain.conf
-echo "addnode=149.56.4.244" >> qamblingchain.conf
-echo "addnode=149.56.4.243" >> qamblingchain.conf
-echo "addnode=149.56.4.242" >> qamblingchain.conf
-echo "addnode=149.56.4.241" >> qamblingchain.conf
+echo "addnode=45.32.196.227" >> qamblingchain.conf
+echo "addnode=144.202.46.250" >> qamblingchain.conf
 echo "port=8152" >> qamblingchain.conf
 mv qamblingchain.conf .qamblingchain
 
@@ -72,4 +63,3 @@ sleep 30
 sleep 5
 ./qamblingchain-cli getnewaddress
 echo "Use the address above to send your QCN coins to this server"
-echo "If you found this helpful, please donate QCN to NNq96FUcDRj62vX5CdbNeAFjG3MTYeeeHn"

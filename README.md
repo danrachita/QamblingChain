@@ -1,46 +1,10 @@
-# QamblingChain Core integration/staging repository
+# QamblingChain Core integration
 
-QamblingChain Core is a decentralized, peer-to-peer cryptocurrency with a primary focus on energy-efficiency and scalabilty. The QamblingChain Network makes use of only Proof-of-Stake mining, in the form of masternodes and staking. This means that the QamblingChain blockchain has a very low impact on the environment and ensures that scaling will be a smooth transition in future. 
+QamblingChain (QCN) is a masternode based crypto currency for the gambling industry and the problem that we wish to solve is the fast transaction requirements that these types of websites have and also the anonymous needs of the users and to achieve high speed transactions on the gambling websites. Our Blockchain will be anonymous and highly secure in order to insure all transactions will stay on the same QCN Network and the network will be anonymous and responsive between users. Each user will have an ID Number and users will not need to login with e-mail, or phone number, or their name! Login and authentication will be with ID and password and QCN accounts will be safe and anonymous for all users. Users that purchase QCN masternodes will need to fill out a form, when we finish the development of iOS and Android apps, user will login with their ID and password and they will see the coins that they purchased in the secure anonymous wallet.
 
-Furthermore, as result of offering multiple ways for users to mint new QCN coins, the network is a lot less centralized than some Proof-of-Work coins that have their hashrates dominated by one or two mining pools.
-
-### View the QamblingChain whitepaper here: 
-
-#### https://cdn.discordapp.com/attachments/416697792048922636/461555510496329728/QamblingChain-Whitepaper-v1.0.0.pdf
-
-## Coin Specs
 
 #
 
-#### Block times: - *1 minute* 
-#### Maximum supply: - *5,000,000 (5 million) QCN*
-#### Consensus mechanism: - *Proof-of-Stake (85% masternodes, 15% stakers)*
-#### Algorithm: - *Quark-hash* 
-#### Masternode collateral - *2,500 QCN*  
-#### Features: - *SwiftTX, budget, treausury and masternode governance is enabled* 
-#### RPC Port: - *8052* 
-#### P2P Port: - *8152* 
-
-#
-
-### Block reward breakdown (Block height - Reward per block)
-#
-#### Block 201-30,000	  -   *5.000 QCN*
-
-#### Block 30,001-200,000   -   *3.750 QCN*
-
-#### Block 200,001-500,000  -   *2.500 QCN*
-
-#### Block 500,001-900,000  -   *1.250 QCN*
-
-#### Block 900,001-1,500,000  -  *0.500 QCN*
-
-#### Block 1,500,001-6,000,000   -   *0.250 QCN*
-
-#### *11 year tapering inflation reward, with a cumulative supply capped at 5,000,000 QCN.*
-
-#
-
-### More information at [https://qcn.network](https://qcn.network)
-### Join our [Discord!](https://discord.gg/9nzt37V)
+### More information at [https://www.qamblingchain.com)
+### Join our [Discord!](https://discord.gg/GHmqXG)
 
