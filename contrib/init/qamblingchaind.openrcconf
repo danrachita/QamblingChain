@@ -1,0 +1,26 @@
+# /etc/conf.d/qamblingchaind: config file for /etc/init.d/qamblingchaind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/qamblingchain/qamblingchain.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/qamblingchaind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/qamblingchaind.pid"
+
+# Where to write qamblingchaind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/qamblingchaind"
+
+# User and group to own qamblingchaind process
+#BITCOIND_USER="qamblingchain"
+#BITCOIND_GROUP="qamblingchain"
+
+# Path to qamblingchaind executable
+#BITCOIND_BIN="/usr/bin/qamblingchaind"
+
+# Nice value to run qamblingchaind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,26 @@
+[Unit]
+Description=QamblingChain's distributed currency daemon
+After=network.target
+
+[Service]
+User=qamblingchain
+Group=qamblingchain
+
+Type=forking
+PIDFile=/var/lib/qamblingchaind/qamblingchaind.pid
+
+ExecStart=/usr/bin/qamblingchaind -daemon -pid=/var/lib/qamblingchaind/qamblingchaind.pid \
+          -conf=/etc/qamblingchain/qamblingchain.conf -datadir=/var/lib/qamblingchaind
+
+ExecStop=-/usr/bin/qamblingchain-cli -conf=/etc/qamblingchain/qamblingchain.conf \
+         -datadir=/var/lib/qamblingchaind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Protocol]
+exec=qamblingchain-qt '%u'
+protocol=qamblingchain
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

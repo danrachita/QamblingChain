@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/qamblingchain_bg.qm</file>
+        <file alias="ca">locale/qamblingchain_ca.qm</file>
+        <file alias="cs">locale/qamblingchain_cs.qm</file>
+        <file alias="da">locale/qamblingchain_da.qm</file>
+        <file alias="de">locale/qamblingchain_de.qm</file>
+        <file alias="en">locale/qamblingchain_en.qm</file>
+        <file alias="en_US">locale/qamblingchain_en_US.qm</file>
+        <file alias="es">locale/qamblingchain_es.qm</file>
+        <file alias="fi">locale/qamblingchain_fi.qm</file>
+        <file alias="fr_FR">locale/qamblingchain_fr_FR.qm</file>
+        <file alias="it">locale/qamblingchain_it.qm</file>
+        <file alias="ja">locale/qamblingchain_ja.qm</file>
+        <file alias="ko_KR">locale/qamblingchain_ko_KR.qm</file>
+        <file alias="nl">locale/qamblingchain_nl.qm</file>
+        <file alias="pl">locale/qamblingchain_pl.qm</file>
+        <file alias="pt">locale/qamblingchain_pt.qm</file>
+        <file alias="pt_BR">locale/qamblingchain_pt_BR.qm</file>
+        <file alias="ro_RO">locale/qamblingchain_ro_RO.qm</file>
+        <file alias="ru">locale/qamblingchain_ru.qm</file>
+        <file alias="sk">locale/qamblingchain_sk.qm</file>
+        <file alias="sv">locale/qamblingchain_sv.qm</file>
+        <file alias="tr">locale/qamblingchain_tr.qm</file>
+        <file alias="uk">locale/qamblingchain_uk.qm</file>
+        <file alias="zh_CN">locale/qamblingchain_zh_CN.qm</file>
+        <file alias="zh_TW">locale/qamblingchain_zh_TW.qm</file>
+    </qresource>
+</RCC>
