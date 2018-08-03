@@ -83,8 +83,8 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 clear
 
 # Set these to change the version of qamblingchain to install
-TARBALLURL="https://github.com/QamblingChain/QamblingChain/releases/download/1.0.0/qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz"
-TARBALLNAME="qamblingchain-1.0.0-x86_64-linux-gnu.tar.gz"
+TARBALLURL="https://github.com/QamblingChain/QamblingChain/releases/download/1.0.0/qamblingchain-2.0.0-x86_64-linux-gnu.tar.gz"
+TARBALLNAME="qamblingchain-2.0.0-x86_64-linux-gnu.tar.gz"
 BOOTSTRAPURL=""
 BOOTSTRAPARCHIVE=""
 BWKVERSION="1.0.0"
