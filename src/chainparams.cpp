@@ -138,7 +138,15 @@ public:
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x00000a892cd9b90926af3b4d32679895d49794b83738acdba1ea5c64c99784d3"));
         assert(genesis.hashMerkleRoot == uint256("0xabeb0d150780db2a0b4943e823d12f30b1e190e3433c2e848a110b1154ac2777"));
-
+        
+        
+        vSeeds.push_back(CDNSSeedData("104.207.138.65", "104.207.138.65"));
+        vSeeds.push_back(CDNSSeedData("108.61.87.12", "108.61.87.12"));
+        vSeeds.push_back(CDNSSeedData("144.202.63.36", "144.202.63.36"));
+	    vSeeds.push_back(CDNSSeedData("149.28.42.9", "149.28.42.9"));
+	    vSeeds.push_back(CDNSSeedData("207.148.12.23", "207.148.12.23"));
+	    vSeeds.push_back(CDNSSeedData("45.76.24.100", "45.76.24.100"));
+	    vSeeds.push_back(CDNSSeedData("45.77.218.101", "45.77.218.101"));
         // DNS Seeding
         //vSeeds.push_back(CDNSSeedData("", ""));
  
